@@ -1,0 +1,56 @@
+* = TODO,
+por ejemplo
+[html]
+<header>
+<header>
+    <p>blahblahblha</p>
+    <a>enlace random</a>
+</header>
+
+[css]
+header * = header p, header a
+
+
+[position: relative], por defecto, se posiciona de
+acuerdo con el resto del texto. puedes usar:
+padding, margin
+
+padding:
+
+Espacio DENTRO del elemento, por ejemplo, el ancho de 
+un boton
+
+margin:
+
+Espacio FUERA del elemento, por ejemplo, la distancia
+entre elementos de una lista 
+
+[position:absolute], define la posicion especifica del
+elemento. puedes usar:
+top, right, left
+
+cada uno de estos es la distancia de cada extremo,
+por ejemplo, poner left: 20px te hara ir 20px a la
+derecha, NO A LA IZQUIERDA
+
+
+jerarquía:
+
+padre > hijo {}: solo los hijos directos, por 
+ejemplo:
+
+<padre>
+*    <hijo>
+    </hijo>
+*    <hijo>
+        <hijo>
+        </hijo>
+    </hijo>
+    <hija>
+        <cosas>
+    </hija>
+</padre>
+
+NO selecciona los hijos de hijos
+
+padre hijos {}: seleccciona TODOS los hijos
