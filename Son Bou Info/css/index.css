@@ -49,6 +49,21 @@ main > p{
     font-size: 19px;
 }
 
+main > img{
+
+    position: absolute;
+    width: 600px;
+    right: 350px;
+
+}
+
+footer > p{
+
+    position: absolute;
+    height: auto;
+    bottom: 10px;
+}
+
 
 
 
